@@ -1,2 +1,2 @@
 # lara_email
- Emvio de email com alaravel 8
+ Emvio de email com laravel 8
