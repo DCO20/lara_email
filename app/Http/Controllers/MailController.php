@@ -20,11 +20,6 @@ class MailController extends Controller
 
         Mail::send(new Contact($data));
 
-        return view('email.thanks');
-    }
-
-    public function thank()
-    {
-        return view('email.thanks');
+        return back()->with('message', 'Mensagem enviada com sucesso!.');
     }
 }

@@ -11,6 +11,9 @@
     <title>LaraEmail</title>
   </head>
   <body>
+    <div>
+        @include('includes.alerts')
+    </div>
     <div class="contact mt-5">
         <div class="container shadow">
             <div class="row">

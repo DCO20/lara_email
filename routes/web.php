@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 
 Route::post('/email-send', [MailController::class, 'sendEmail']);
-Route::get('/thanks', [MailController::class, 'thank']);
+
 
 
